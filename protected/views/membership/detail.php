@@ -22,8 +22,8 @@
 						?>
 
 						<li style="margin-right: 5px; padding: 3px; border: 1px #DDDDDD solid;">
-							<span class="fa <?php echo $socmedias_logo[$socmed_item['socmed_type']]; ?>"></span>
-							<?php echo filter_var(trim($socmed_item['account_name']), FILTER_SANITIZE_STRING); ?>
+                                                    <span class="fa <?php echo $socmedias_logo[$socmed_item['socmed_type']]; ?>"></span>
+                                                    <a href="<?php echo trim($socmed_item['account_url']) ?>" target="_blank" ><?php echo filter_var(trim($socmed_item['account_name']), FILTER_SANITIZE_STRING); ?></a>
 						</li>
 
 						<?php

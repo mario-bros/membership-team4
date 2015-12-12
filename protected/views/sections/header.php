@@ -30,39 +30,39 @@
 					</div>
 
 					<ul class="menu">
-						<li><a href="http://www.phpindonesia.or.id/./">Home</a></li>
-						<li class="menu-item-simple-parent"><a href="http://www.phpindonesia.or.id/pages/tentang-kami">Tentang Kami</a>
+						<li><a href="<?php echo $this->uri_base_url() ?>">Home</a></li>
+						<li class="menu-item-simple-parent"><a href="<?php echo $this->uri_base_url() ?>/pages/tentang-kami">Tentang Kami</a>
 							<ul class="sub-menu">
-								<li><a href="http://www.phpindonesia.or.id/pages/sejarah">Sejarah</a></li>
-								<li><a href="http://www.phpindonesia.or.id/pages/struktur-organisasi">Struktur Organisasi</a></li>
-								<li><a href="http://www.phpindonesia.or.id/pages/kepengurusan">Kepengurusan</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/pages/sejarah">Sejarah</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/pages/struktur-organisasi">Struktur Organisasi</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/pages/kepengurusan">Kepengurusan</a></li>
 							</ul><a class="dt-menu-expand">+</a>
 						</li>
 
 						<li class="menu-item-simple-parent">
-							<a href="http://www.phpindonesia.or.id/pages/program-kerja">Program Kerja</a>
+							<a href="<?php echo $this->uri_base_url() ?>/pages/program-kerja">Program Kerja</a>
 							<ul class="sub-menu">
-								<li><a href="http://www.phpindonesia.or.id/pages/program-kerja-nasional">Nasional</a></li>
-								<li><a href="http://www.phpindonesia.or.id/pages/program-kerja-daerah">Daerah</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/pages/program-kerja-nasional">Nasional</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/pages/program-kerja-daerah">Daerah</a></li>
 							</ul>
 							<a class="dt-menu-expand">+</a>
 						</li>
 
 						<li class="menu-item-simple-parent">
-							<a href="http://www.phpindonesia.or.id/pages/ad-art">Dokumen</a>
+							<a href="<?php echo $this->uri_base_url() ?>/pages/ad-art">Dokumen</a>
 							<ul class="sub-menu">
-								<li><a href="http://www.phpindonesia.or.id/pages/ad-art">AD/ART</a></li>
-								<li><a href="http://www.phpindonesia.or.id/pages/surat-keputusan">Surat Keputusan</a></li>
-								<li><a href="http://www.phpindonesia.or.id/listevent">Event</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/pages/ad-art">AD/ART</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/pages/surat-keputusan">Surat Keputusan</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/listevent">Event</a></li>
 							</ul>
 							<a class="dt-menu-expand">+</a>
 						</li>
 
 						<li class="menu-item-simple-parent">
-							<a href="http://www.phpindonesia.or.id/album">Galeri</a>
+							<a href="<?php echo $this->uri_base_url() ?>/album">Galeri</a>
 							<ul class="sub-menu">
-								<li><a href="http://www.phpindonesia.or.id/album">Photo</a></li>
-								<li><a href="http://www.phpindonesia.or.id/valbum">Video</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/album">Photo</a></li>
+								<li><a href="<?php echo $this->uri_base_url() ?>/valbum">Video</a></li>
 							</ul>
 							<a class="dt-menu-expand">+</a>
 						</li>
@@ -78,7 +78,7 @@
 						</li>
 						<?php endif ?>
 
-						<li><a href="http://www.phpindonesia.or.id/contact">Kontak</a></li>
+						<li><a href="<?php echo $this->uri_base_url() ?>/contact">Kontak</a></li>
 
 						<?php if (isset($_SESSION['MembershipAuth'])): ?>
 						<li class="menu-item-simple-parent">
